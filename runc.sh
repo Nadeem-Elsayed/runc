@@ -6,8 +6,8 @@
 #defines the usage of the program
 usage() {
         echo "usage:">&2
-        echo "runc "file"">&2
-        echo "runc "file" "file.c"">&2
+        echo "runc \"file\"">&2
+        echo "runc \"file\" \"file.c\"">&2
 }
 
 if [[ $# == 1 && -z $1 ]]
